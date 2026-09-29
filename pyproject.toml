@@ -1,0 +1,14 @@
+[project]
+name = "continued-fraction"
+version = "0.1.0"
+description = "Converts rationals and square roots to and from continued fraction representations and supports exact arithmetic on quadratic irrationals."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
